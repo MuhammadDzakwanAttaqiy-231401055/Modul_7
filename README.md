@@ -60,7 +60,7 @@ Pada modul praktikum ini, kita memutuskan untuk menggunakan Cloud Firestore. Kep
 
 Dalam basis data SQL konvensional, kita terbiasa dengan struktur tabel dua dimensi (baris dan kolom). Namun, Cloud Firestore adalah basis data NoSQL berorientasi dokumen. Untuk memahaminya, mari kita bayangkan sebuah Sistem Pengarsipan Kantor fisik, sebagaimana diilustrasikan dalam konsep model data Firestore.
 
-![gambar dan keterangannya: Ilustrasi model data Firestore berupa sebuah folder (collection) yang berisi lembaran dokumen (document) dengan isi data di dalamnya (data)](../images/modul7/model_data.png)
+![gambar dan keterangannya: Ilustrasi model data Firestore berupa sebuah folder (collection) yang berisi lembaran dokumen (document) dengan isi data di dalamnya (data)](images/modul7/model_data.png)
 
 #### A. Analogi Pengarsipan
 
@@ -113,29 +113,29 @@ Karena secara default layanan Firestore belum aktif, kita perlu menginisialisasi
 1. Buka Firebase Console dan pilih project yang telah Anda buat di modul sebelumnya.
 2. Pada panel navigasi sebelah kiri, di bagian Build, pilih Firestore Database.
 
-![gambar dan keterangannya: Menu "Firestore Database" pada panel navigasi Firebase Console bagian Build](../images/modul7/firestore.png)
+![gambar dan keterangannya: Menu "Firestore Database" pada panel navigasi Firebase Console bagian Build](images/modul7/firestore.png)
 
 3. Klik tombol Create Database.
 
-![gambar dan keterangannya: Halaman Cloud Firestore dengan tombol "Create database" dan "Ask Gemini"](../images/modul7/create.png)
+![gambar dan keterangannya: Halaman Cloud Firestore dengan tombol "Create database" dan "Ask Gemini"](images/modul7/create.png)
 
 4. Langkah 1: Database Settings (Edition)
 
-![gambar dan keterangannya: Dialog "Select edition" dengan pilihan Standard edition (terpilih) dan Enterprise edition, serta tombol Next](<(../images/modul7/settings.png)>)
+![gambar dan keterangannya: Dialog "Select edition" dengan pilihan Standard edition (terpilih) dan Enterprise edition, serta tombol Next](<(images/modul7/settings.png)>)
 
 - Biarkan default (Standard edition).
 - Klik Next.
 
 5. Langkah 2: Database Setting
 
-![gambar dan keterangannya: Dialog "Database ID & location" dengan Database ID "(default)" dan Location "nam5 (United States)", serta tombol Next](../images/modul7/location.png)
+![gambar dan keterangannya: Dialog "Database ID & location" dengan Database ID "(default)" dan Location "nam5 (United States)", serta tombol Next](images/modul7/location.png)
 
 - Biarkan default (nam5)
 - Klik Next.
 
 6. Langkah 4: Security Rules (Penting)
 
-![gambar dan keterangannya: Dialog "Configure" dengan pilihan "Start in production mode" dan "Start in test mode" (terpilih), disertai tampilan security rules dan peringatan bahwa test mode mengizinkan siapa saja membaca, mengedit, dan menghapus seluruh data selama 30 hari](../images/modul7/secure.png)
+![gambar dan keterangannya: Dialog "Configure" dengan pilihan "Start in production mode" dan "Start in test mode" (terpilih), disertai tampilan security rules dan peringatan bahwa test mode mengizinkan siapa saja membaca, mengedit, dan menghapus seluruh data selama 30 hari](images/modul7/secure.png)
 
 - Pilih **Start in Test mode**.
 - Penjelasan: Mode ini mengizinkan siapa saja (selama mengetahui ID project) untuk membaca dan menulis data selama 30 hari ke depan. Ini memudahkan proses debugging saat praktikum tanpa terhalang masalah perizinan.
